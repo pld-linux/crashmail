@@ -30,8 +30,6 @@ install -d	$RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install bin/*	$RPM_BUILD_ROOT%{_bindir}
 install man/*	$RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf doc/*
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
