@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.df.lth.se/~billing/crashmail/cm062linux.zip
+# Source0-md5:	1626183c0d2ced4a9b01742458405036
 URL:		http://http://www.df.lth.se/~billing/crashmail.html
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
