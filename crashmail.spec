@@ -1,13 +1,13 @@
 Summary:	A Fidonet *.JAM and MSG tosser
 Summary(pl):	Program do rzucania *.JAM i MSG w Fidonecie
 Name:		crashmail
-Version:	0.62
-Release:	3
+Version:	0.71
+Release:	1
 License:	GPL
 Group:		Applications/Mail
-Source0:	http://www.df.lth.se/~billing/crashmail/cm062linux.zip
-# Source0-md5:	1626183c0d2ced4a9b01742458405036
-URL:		http://http://www.df.lth.se/~billing/crashmail.html
+Source0:	http://www.df.lth.se/~billing/crashmail/cm071linux.zip
+# Source0-md5:	c10de7a0e6f48e7b1cd2cabad8ed8289
+URL:		http://www.df.lth.se/~billing/crashmail.html
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -18,7 +18,7 @@ A Fidonet *.JAM and MSG tosser.
 Program do rzucania *.JAM i MSG w Fidonecie.
 
 %prep
-%setup -q -n CrashMail
+%setup -q
 
 %build
 cd src
