@@ -1,13 +1,13 @@
 Summary:	A Fidonet *.JAM and MSG tosser
 Name:		crashmail
-Version:	0.6
+Version:	0.62
 Release:	1
 Group:		Applications/Mail
 Group(de):	Applikationen/Post
 Group(pl):	Aplikacje/Poczta
 Group(pt):	Aplicações/Correio Eletrônico
 License:	GPL
-Source0:	http://www.df.lth.se/~billing/crashmail/cm06linux.zip
+Source0:	http://www.df.lth.se/~billing/crashmail/cm062linux.zip
 URL:		http://http://www.df.lth.se/~billing/crashmail.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
