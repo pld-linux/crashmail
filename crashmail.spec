@@ -5,9 +5,6 @@ Version:	0.62
 Release:	1
 License:	GPL
 Group:		Applications/Mail
-Group(de):	Applikationen/Post
-Group(pl):	Aplikacje/Poczta
-Group(pt):	Aplicações/Correio Eletrônico
 Source0:	http://www.df.lth.se/~billing/crashmail/cm062linux.zip
 URL:		http://http://www.df.lth.se/~billing/crashmail.html
 BuildRequires:	unzip
