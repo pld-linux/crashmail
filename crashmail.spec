@@ -9,6 +9,7 @@ Group(pt):	Aplicações/Correio Eletrônico
 License:	GPL
 Source0:	http://www.df.lth.se/~billing/crashmail/cm062linux.zip
 URL:		http://http://www.df.lth.se/~billing/crashmail.html
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -16,8 +17,7 @@ A Fidonet *.JAM and MSG tosser
 
 %prep
 rm -rf CrashMail
-unzip -qo %{SOURCE0}
-%setup -q -D -T -n CrashMail
+%setup -q -n CrashMail
 
 %build
 cd src
