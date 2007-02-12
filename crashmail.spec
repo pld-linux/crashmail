@@ -1,5 +1,5 @@
 Summary:	A Fidonet *.JAM and MSG tosser
-Summary(pl):	Program do rzucania *.JAM i MSG w Fidonecie
+Summary(pl.UTF-8):   Program do rzucania *.JAM i MSG w Fidonecie
 Name:		crashmail
 Version:	0.71
 Release:	1
@@ -14,7 +14,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Fidonet *.JAM and MSG tosser.
 
-%description -l pl
+%description -l pl.UTF-8
 Program do rzucania *.JAM i MSG w Fidonecie.
 
 %prep
