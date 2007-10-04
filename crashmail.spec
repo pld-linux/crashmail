@@ -21,8 +21,7 @@ Program do rzucania *.JAM i MSG w Fidonecie.
 %setup -q
 
 %build
-cd src
-%{__make} linux
+%{__make} -C src linux
 
 %install
 rm -rf $RPM_BUILD_ROOT
